@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <body>
+      <h1>HTML Beginning Tutorial</h1>
+      <img src="html-elements.jpg"alt="a picture" width="304px" height="228">
+      <h2 style="color:blue">What is HTML?</h2> 
+      <p> HTML stands for Hyper Text Markup Language, and is used to format web pages. HTML consists of a set up markup 
+        <b>tags</b> that describe different elements of a document, such as headings, paragraphs, and hyperlinks. 
+        The tags generally come in pairs, and are placed at the beginning and end of the text they are describing. 
+        <b>Start tags</b> are denoted by <> and <b>end tags</b>
+      are denoted by &lt;</>/&gt;. For example, the text between &lt;p&gt; and &lt;p/&gt; describes a paragraph.</p> 
+
+      <h2 style="color:blue">Creating a HTML Document</h2> 
+      <p>You can easily create simple web pages in Word by just saving a 
+        Word document as a web page. However, for full functionality and control, it’s best to use a simple 
+        text editor such as Notepad in Windows.  All HTML documents begin with a DOCTYPE declaration that defines 
+        the document type followed by <HTML> and <body> to indicate that this is a web document, and visible page content, respectively. 
+        Headings are denoted by levels, H1 is the highest level of heading, H2 is the next highest heading level, and so forth to H6.</p>  
+
+      <h2 style="color:blue">Formatting Tags</h2> <p ondblclick="this.style.fontSize='25px';">Text within the body of the 
+        HTML page need formatting tags to add bolding, italics, or other effects. For example, to bold text, use the tag &lt;b&gt; 
+        and to <i>italicize</i> text use the tag &lt;i&gt;. Colors are represented as a style element, and further defined by a color name or 
+        a HEX code. For example, the headings in each paragraph are formatted as blue. Links to other web pages are defined with 
+        the &lt;a&gt; tag.For more information on creating HTML pages work through this<a href="https://www.w3schools.com/html/"> 
+            HTML Tutorial</a></p>
+
+      <h2 style="color:blue">Viewing an HTML Page</h2> <p id="parThree">After the HTML page has been created, you can view the 
+          HTML Page in your browser by simply navigating to the saved HTML document and double clicking it.</p>
+
+          <h1> Unix Shell </h1>
+
+     <h2 style="color:blue"> What is a Unix Shell </h2>
+          <p> It consists of both Command Line I nterface (CLI) and scripting language. The Shell Used by Unix is called 
+              Bash (Bourne again Shell) is best used on this for a better understanding. Less obvious how to perform 
+              tasks but allows powerful automations and also useful as a programmer for managing flies and automating 
+              some basic tasks.</p>
+
+     <h2 style="color:blue"> How to list the flies in a Directory </h2>
+     <p> Use the ls command to display the contents of a directory.
+         The ls command writes to standard output the contents of each specified Directory or the name of each specified File, 
+         along with any other information you ask for with the flags. If you do not 
+        specify a File or Directory, the ls command displays the contents of the current directory.
+        By default, the ls command displays all information in alphabetic order by file name. If the command is 
+        executed by a user with root authority, it uses the -A flag by default, listing all entries except dot (.) 
+        and dot dot (..). To show all entries for files, including those that begin with a dot (.), use the ls -a command.</p>
+    
+     <h2 style="color:blue"> How to show and change the working directory </h2>
+     <p> First list the flies in your current directory by using ls command. Then print out the directory of were you are working on
+          now by using the pwd command(print working directory) and it will display or show were you are working on at the moment. 
+          Use the cd command to move from your present directory to another directory. You must have execute (search) permission in 
+          the specified directory.
+          If you do not specify a Directory parameter, the cd command moves you to your login directory ($HOME in the ksh and bsh 
+          environments, or $home in the csh environment). If the specified directory name is a full path name, it becomes the current 
+          directory. A full path name begins with a slash (/) indicating the /(root) directory, a dot (.) indicating current directory, 
+          or a dot dot (..) indicating parent directory. If the directory name is not a full path name, the cd command searches for it 
+          relative to one of the paths specified by the $CDPATH shell variable (or $cdpath csh variable). This variable has the same syntax 
+          as, and similar semantics to, the $PATH shell variable (or $path csh variable).
+          
+          The following are examples of how to use the cd command:
+          To change to your home directory, type the following:
+          cd
+          To change to the /usr/include directory, type the following:
+          cd /usr/include
+          To go down one level of the directory tree to the sys directory, type the following:
+          cd sys
+          If the current directory is /usr/include and it contains a subdirectory named sys, then /usr/include/sys becomes the current directory.
+          To go up one level of the directory tree, type the following:
+          cd ..
+          The special file name, dot dot (..), refers to the directory immediately above the current directory, its parent directory.</p>
+
+     <h2 style="color:blue"> How to create a new directory </h2>
+     <p> Use the mkdir command to create one or more directories specified by the Directory parameter.
+         Each new directory contains the standard entries dot (.) and dot dot (..). You can specify the permissions 
+         for the new directories with the -m Mode flag.
+         When you create a directory, it is created within the current, or working, directory unless you specify an absolute 
+         path name to another location in the file system.
+         The following are examples of how to use the mkdir command:
+         To create a new directory called Test in the current working directory with default permissions, type the following:
+         mkdir Test
+         To create a directory called Test with rwxr-xr-x permissions in a previously created /home/demo/sub1 directory, 
+         type the following:
+         mkdir -m 755 /home/demo/sub1/Test
+         To create a directory called Test with default permissions in the /home/demo/sub2 directory, type the following:
+         mkdir -p /home/demo/sub2/Test
+         The -p flag creates the /home, /home/demo, and /home/demo/sub2 directories if they do not already exist.</p>
+
+     <h2 style="color:blue"> How to create and remove files. </h2>  
+     <p> To create a file you use nano command.
+        The following are examples of how to create a file:
+        To create a new file called Test in the current working directory with default permissions, type the following:
+        nano text.txt
+        To create a file called Test with rwxr-xr-x permissions in a previously created /home/demo/sub1 directory, 
+        type the following:
+        touch file.txt
+         To remove file  you use the rm command. rm -ir
+        <b> <br>NOTE: By using the command or flag always remember that it might not apply in all operating system. 
+            Each operating system have a command that their all understand and use.</b>  </b></p>
+
+      <h1> GitHub Workflow </h1>
+
+      <h2 style="color:blue"> What is GitHub? </h2> 
+      <p> GitHub is a code hosting platform for version control and collaboration. It lets you and others work together 
+          on projects from anywhere. This tutorial teaches you GitHub essentials like repositories, 
+          branches, commits, and Pull Requests. This video about GitHub can help you understand 
+          more about what GitHub is all about<a href="https://www.youtube.com/watch?v=w3jLJU7DT5E"> GitHub Video </a> </p> 
+
+      <h2 style="color:blue"> What is a Commit? </h2>
+      <p> A commit, or "revision", is an individual change to a file (or set of files). When you make a commit to 
+          save your work, Git creates a unique ID (a.k.a. the "SHA" or "hash") that allows you to keep record of the specific 
+          changes commited along with who made them and when. Commits usually contain a commit message which is a brief description
+           of what changes were made.</p>
+
+      <h2 style="color:blue"> What is a branch? </h2> 
+      <p> The "blame" feature in Git describes the last modification to each line of a file, which generally displays
+           the revision, author and time. This is helpful, for example, in tracking down when a feature was added, 
+           or which commit led to a particular bug.</p>
+
+      <h2 style="color:blue"> What is a pull request? </h2> 
+      <p> Pull requests are proposed changes to a repository submitted by a user and accepted or rejected by 
+          a repository's collaborators. Like issues, pull requests each have their own discussion forum.
+      <b><br>NOTE: We cannot talk about GitHub without knowing what a repository and Git is all about. A repository is the most 
+        basic element of GitHub. They're easiest to imagine as a project's folder. A repository contains all of the project 
+        files (including documentation), and stores each file's revision history. Repositories can have multiple collaborators and 
+        can be either public or private.
+       Git is a free and open source distributed version control system originally developed by linus to manage changes
+        to the linux kernel.</b></b></p>
+        <p> For more information about Git and GitHub please refer to the link: 
+            <a href="https://www.youtube.com/playlist?list=PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF"> More information</a> </p>
+      </body>
+      </html>
