@@ -1,0 +1,24 @@
+.py-3 navbar navbar-expand-lg  auto-hiding-navbar navbar-light {
+    top: 0px;
+}
+
+.nav-item active current {
+    color: #e7731f
+}
+
+hr {
+    border-top: 3px solid #e7731f;
+}
+
+.Github {
+    width: 200px; 
+    height: 150px;
+}
+
+.navbar navbar-light {
+    background-color: #e7731f;
+}
+
+.navbar-text {
+    color: white;
+}
